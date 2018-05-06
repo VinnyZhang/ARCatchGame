@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "7c1be3b19dd62cab726ed897d0dda387"
+build_time: [1525487936, 505943000]
+inputs:
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARCatchGame/ARCatchGame/ViewController.swift": !dirty [1525487936, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARCatchGame/ARCatchGame/AppDelegate.swift": [1525419666, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARCatchGame/ARCatchGame/ARSCNBaseViewController.swift": [1525420453, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARCatchGame/ARCatchGame/MagicBallNode.swift": [1525422870, 0]
+  "/Users/songzhang/Documents/ZXS/ZXSGit/ARCatchGame/ARCatchGame/PetNode.swift": [1525421244, 0]

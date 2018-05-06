@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PetNode"
+provides-nominal:
+- "11ARCatchGame7PetNodeC"
+provides-member:
+- ["11ARCatchGame7PetNodeC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "PetNode"
+- "SCNNode"
+- !private "SCNPhysicsBody"
+- !private "SCNPhysicsShape"
+- !private "SCNScene"
+- "String"
+depends-member:
+- !private ["s7CVarArgP", "SCNPhysicsBody"]
+- !private ["s7CVarArgP", "SCNPhysicsShape"]
+- !private ["s7CVarArgP", "SCNScene"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "categoryBitMask"]
+- !private ["s7CVarArgP", "clone"]
+- !private ["s7CVarArgP", "collisionBitMask"]
+- !private ["s7CVarArgP", "contactTestBitMask"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAffectedByGravity"]
+- !private ["s7CVarArgP", "physicsBody"]
+- !private ["s7CVarArgP", "rootNode"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNPhysicsBody"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNPhysicsShape"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNScene"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "categoryBitMask"]
+- !private ["s28CustomDebugStringConvertibleP", "clone"]
+- !private ["s28CustomDebugStringConvertibleP", "collisionBitMask"]
+- !private ["s28CustomDebugStringConvertibleP", "contactTestBitMask"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAffectedByGravity"]
+- !private ["s28CustomDebugStringConvertibleP", "physicsBody"]
+- !private ["s28CustomDebugStringConvertibleP", "rootNode"]
+- !private ["s23CustomStringConvertibleP", "SCNPhysicsBody"]
+- !private ["s23CustomStringConvertibleP", "SCNPhysicsShape"]
+- !private ["s23CustomStringConvertibleP", "SCNScene"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "categoryBitMask"]
+- !private ["s23CustomStringConvertibleP", "clone"]
+- !private ["s23CustomStringConvertibleP", "collisionBitMask"]
+- !private ["s23CustomStringConvertibleP", "contactTestBitMask"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAffectedByGravity"]
+- !private ["s23CustomStringConvertibleP", "physicsBody"]
+- !private ["s23CustomStringConvertibleP", "rootNode"]
+- !private ["s9EquatableP", "SCNPhysicsBody"]
+- !private ["s9EquatableP", "SCNPhysicsShape"]
+- !private ["s9EquatableP", "SCNScene"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "categoryBitMask"]
+- !private ["s9EquatableP", "clone"]
+- !private ["s9EquatableP", "collisionBitMask"]
+- !private ["s9EquatableP", "contactTestBitMask"]
+- !private ["s9EquatableP", "dynamic"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isAffectedByGravity"]
+- !private ["s9EquatableP", "physicsBody"]
+- !private ["s9EquatableP", "rootNode"]
+- !private ["s8HashableP", "SCNPhysicsBody"]
+- !private ["s8HashableP", "SCNPhysicsShape"]
+- !private ["s8HashableP", "SCNScene"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "categoryBitMask"]
+- !private ["s8HashableP", "clone"]
+- !private ["s8HashableP", "collisionBitMask"]
+- !private ["s8HashableP", "contactTestBitMask"]
+- !private ["s8HashableP", "dynamic"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isAffectedByGravity"]
+- !private ["s8HashableP", "physicsBody"]
+- !private ["s8HashableP", "rootNode"]
+- !private ["So8NSCodingP", "SCNPhysicsBody"]
+- !private ["So8NSCodingP", "SCNPhysicsShape"]
+- !private ["So8NSCodingP", "SCNScene"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "categoryBitMask"]
+- !private ["So8NSCodingP", "clone"]
+- !private ["So8NSCodingP", "collisionBitMask"]
+- !private ["So8NSCodingP", "contactTestBitMask"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isAffectedByGravity"]
+- !private ["So8NSCodingP", "physicsBody"]
+- !private ["So8NSCodingP", "rootNode"]
+- !private ["So9NSCopyingP", "SCNPhysicsBody"]
+- !private ["So9NSCopyingP", "SCNPhysicsShape"]
+- !private ["So9NSCopyingP", "SCNScene"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "categoryBitMask"]
+- !private ["So9NSCopyingP", "clone"]
+- !private ["So9NSCopyingP", "collisionBitMask"]
+- !private ["So9NSCopyingP", "contactTestBitMask"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isAffectedByGravity"]
+- !private ["So9NSCopyingP", "physicsBody"]
+- ["So8NSObjectC", "PetNode"]
+- !private ["So8NSObjectC", "SCNPhysicsBody"]
+- !private ["So8NSObjectC", "SCNPhysicsShape"]
+- !private ["So8NSObjectC", "SCNScene"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "categoryBitMask"]
+- !private ["So8NSObjectC", "clone"]
+- !private ["So8NSObjectC", "collisionBitMask"]
+- !private ["So8NSObjectC", "contactTestBitMask"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initPetNode"]
+- !private ["So8NSObjectC", "isAffectedByGravity"]
+- !private ["So8NSObjectC", "physicsBody"]
+- !private ["So8NSObjectC", "rootNode"]
+- !private ["So16NSObjectProtocolP", "SCNPhysicsBody"]
+- !private ["So16NSObjectProtocolP", "SCNPhysicsShape"]
+- !private ["So16NSObjectProtocolP", "SCNScene"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "categoryBitMask"]
+- !private ["So16NSObjectProtocolP", "clone"]
+- !private ["So16NSObjectProtocolP", "collisionBitMask"]
+- !private ["So16NSObjectProtocolP", "contactTestBitMask"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isAffectedByGravity"]
+- !private ["So16NSObjectProtocolP", "physicsBody"]
+- !private ["So16NSObjectProtocolP", "rootNode"]
+- !private ["So14NSSecureCodingP", "SCNPhysicsBody"]
+- !private ["So14NSSecureCodingP", "SCNPhysicsShape"]
+- !private ["So14NSSecureCodingP", "SCNScene"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "categoryBitMask"]
+- !private ["So14NSSecureCodingP", "clone"]
+- !private ["So14NSSecureCodingP", "collisionBitMask"]
+- !private ["So14NSSecureCodingP", "contactTestBitMask"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isAffectedByGravity"]
+- !private ["So14NSSecureCodingP", "physicsBody"]
+- !private ["So14NSSecureCodingP", "rootNode"]
+- ["11ARCatchGame7PetNodeC", "PetNode"]
+- !private ["11ARCatchGame7PetNodeC", "SCNPhysicsBody"]
+- !private ["11ARCatchGame7PetNodeC", "SCNPhysicsShape"]
+- !private ["11ARCatchGame7PetNodeC", "SCNScene"]
+- ["11ARCatchGame7PetNodeC", "String"]
+- ["11ARCatchGame7PetNodeC", "deinit"]
+- ["11ARCatchGame7PetNodeC", "init"]
+- ["11ARCatchGame7PetNodeC", "initPetNode"]
+- !private ["s16RawRepresentableP", "dynamic"]
+- !private ["So13SCNActionableP", "SCNPhysicsBody"]
+- !private ["So13SCNActionableP", "SCNPhysicsShape"]
+- !private ["So13SCNActionableP", "SCNScene"]
+- ["So13SCNActionableP", ""]
+- !private ["So13SCNActionableP", "clone"]
+- !private ["So13SCNActionableP", "init"]
+- !private ["So13SCNActionableP", "physicsBody"]
+- !private ["So13SCNAnimatableP", "SCNPhysicsBody"]
+- !private ["So13SCNAnimatableP", "SCNPhysicsShape"]
+- !private ["So13SCNAnimatableP", "SCNScene"]
+- ["So13SCNAnimatableP", ""]
+- !private ["So13SCNAnimatableP", "clone"]
+- !private ["So13SCNAnimatableP", "init"]
+- !private ["So13SCNAnimatableP", "physicsBody"]
+- !private ["So17SCNBoundingVolumeP", "SCNPhysicsBody"]
+- !private ["So17SCNBoundingVolumeP", "SCNPhysicsShape"]
+- !private ["So17SCNBoundingVolumeP", "SCNScene"]
+- ["So17SCNBoundingVolumeP", ""]
+- !private ["So17SCNBoundingVolumeP", "clone"]
+- !private ["So17SCNBoundingVolumeP", "init"]
+- !private ["So17SCNBoundingVolumeP", "physicsBody"]
+- ["So7SCNNodeC", "PetNode"]
+- !private ["So7SCNNodeC", "SCNPhysicsBody"]
+- !private ["So7SCNNodeC", "SCNPhysicsShape"]
+- !private ["So7SCNNodeC", "SCNScene"]
+- ["So7SCNNodeC", "String"]
+- ["So7SCNNodeC", ""]
+- !private ["So7SCNNodeC", "clone"]
+- ["So7SCNNodeC", "init"]
+- ["So7SCNNodeC", "initPetNode"]
+- !private ["So7SCNNodeC", "physicsBody"]
+- !private ["So14SCNPhysicsBodyC", "categoryBitMask"]
+- !private ["So14SCNPhysicsBodyC", "collisionBitMask"]
+- !private ["So14SCNPhysicsBodyC", "contactTestBitMask"]
+- !private ["So14SCNPhysicsBodyC", "init"]
+- !private ["So14SCNPhysicsBodyC", "isAffectedByGravity"]
+- !private ["SC18SCNPhysicsBodyTypeO", "dynamic"]
+- !private ["So15SCNPhysicsShapeC", "init"]
+- !private ["So8SCNSceneC", "init"]
+- !private ["So8SCNSceneC", "rootNode"]
+- !private ["So18UIFocusEnvironmentP", "SCNPhysicsBody"]
+- !private ["So18UIFocusEnvironmentP", "SCNPhysicsShape"]
+- !private ["So18UIFocusEnvironmentP", "SCNScene"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "clone"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "physicsBody"]
+- !private ["So11UIFocusItemP", "SCNPhysicsBody"]
+- !private ["So11UIFocusItemP", "SCNPhysicsShape"]
+- !private ["So11UIFocusItemP", "SCNScene"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "clone"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "physicsBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNPhysicsBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNPhysicsShape"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNScene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "categoryBitMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collisionBitMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contactTestBitMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAffectedByGravity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "physicsBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootNode"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "11ARCatchGame7PetNodeC"
+- !private "s16RawRepresentableP"
+- "So13SCNActionableP"
+- "So13SCNAnimatableP"
+- "So17SCNBoundingVolumeP"
+- "So7SCNNodeC"
+- !private "So14SCNPhysicsBodyC"
+- !private "SC18SCNPhysicsBodyTypeO"
+- !private "So15SCNPhysicsShapeC"
+- !private "So8SCNSceneC"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "17a9a3ed6e895486d2b1cd66a5a2b168"
