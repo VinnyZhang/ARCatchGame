@@ -91,7 +91,7 @@ class ViewController: ARSCNBaseViewController {
         let node = MagicBallNode.initMagicBallNode(nodeWith: "MagicBallScene.scn")
         let currentFrame = gameView.session.currentFrame
         let transform = SCNMatrix4((currentFrame?.camera.transform)!)
-        let direction = SCNVector3Make(-1 * transform.m31, -1 * transform.m32, -1 * transform.m33)
+        let direction = SCNVector3Make(-5 * transform.m31, -5 * transform.m32, -5 * transform.m33)
         let position = SCNVector3Make(transform.m41, transform.m42, transform.m43)
         // 节点位置初始化
         node.position = position
@@ -99,8 +99,11 @@ class ViewController: ARSCNBaseViewController {
         node.physicsBody?.applyForce(direction, asImpulse: true)
         gameView.scene.rootNode.addChildNode(node)
         // 6秒以后从场景中移除自己
-        DispatchQueue.main.asyncAfter(deadline: .now() + 6.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+            // 播放逃走音效
+            self.playAudio(fileName: "failureAudio")
             node.removeFromParentNode()
+            self.alertLabel.text = "未捕捉成功"
         }
     }
     
@@ -113,12 +116,19 @@ class ViewController: ARSCNBaseViewController {
         let rotation = matrix_multiply(rotateX, rotateY)
         // z轴规定距离
         var translation = matrix_identity_float4x4
-        translation.columns.3.z = -1.0 - randomNum
+        translation.columns.3.z = -4.0 - randomNum
         // 生成位姿矩阵
         let transform = matrix_multiply(rotation, translation)
         // 添加宠物节点
         let node = PetNode.initPetNode(nodeWith: "PetScene.scn")
         node.transform = SCNMatrix4(transform)
+//        if let scnBox = node.geometry as? SCNBox {
+//            scnBox.width = 0.05
+//            scnBox.height = 0.1
+//        }
+        
+//        node.scale = SCNVector3Make(0.1, 0.1, 0.1)
+//        let myNode = node as! PetNode
         gameView.scene.rootNode.addChildNode(node)
     }
     
@@ -145,12 +155,13 @@ class ViewController: ARSCNBaseViewController {
 extension ViewController: SCNPhysicsContactDelegate {
     
     func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact) {
+        print("physicsWorld")
         if contact.nodeA.physicsBody?.categoryBitMask == 1 || contact.nodeB.physicsBody?.categoryBitMask == 1 {
             // 先删除魔法球
             contact.nodeB.removeFromParentNode()
             // 产生随机数，然后用随机数判断魔法球是否捕捉到宠物节点
-            let random = arc4random() % 100
-            if random > 50 {
+//            let random = arc4random() % 100
+//            if random > 50 {
                 // 分数增加
                 num += 1
                 // 状态更新，并且删除宠物节点
@@ -159,16 +170,16 @@ extension ViewController: SCNPhysicsContactDelegate {
                     self.numLabel.text = "\(self.num)"
                     self.removePetNodeWithAnimated(node: contact.nodeA)
                 }
-            }
-            else {
-                // 播放逃走音效
-                playAudio(fileName: "failureAudio")
-                // 提示信息，并且删除宠物节点
-                DispatchQueue.main.async {
-                    self.alertLabel.text = "未捕捉成功"
-                    contact.nodeA.removeFromParentNode()
-                }
-            }
+//            }
+//            else {
+//                // 播放逃走音效
+//                playAudio(fileName: "failureAudio")
+//                // 提示信息，并且删除宠物节点
+//                DispatchQueue.main.async {
+//                    self.alertLabel.text = "未捕捉成功"
+//                    contact.nodeA.removeFromParentNode()
+//                }
+//            }
             
         }
     }

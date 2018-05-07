@@ -23,9 +23,9 @@
 		5F2E1BD5209C4DF4008C789E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2E1BCA209C4DF3008C789E /* star.png */; };
 		5F2E1BD6209C4DF4008C789E /* successAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F2E1BCB209C4DF3008C789E /* successAudio.mp3 */; };
 		5F2E1BD7209C4DF4008C789E /* 12121212.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2E1BCC209C4DF3008C789E /* 12121212.png */; };
-		5F2E1BD8209C4DF4008C789E /* PetScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 5F2E1BCD209C4DF3008C789E /* PetScene.scn */; };
 		5F2E1BD9209C4DF4008C789E /* petTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F2E1BCE209C4DF3008C789E /* petTexture.jpg */; };
 		5F2E1BDA209C4DF4008C789E /* MagicBallScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 5F2E1BCF209C4DF4008C789E /* MagicBallScene.scn */; };
+		5F69E46D209FE2640081347D /* PetScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 5F69E46C209FE2640081347D /* PetScene.scn */; };
 		A6049226209D50C0001F051C /* find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6049225209D50C0001F051C /* find@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -48,9 +48,9 @@
 		5F2E1BCA209C4DF3008C789E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		5F2E1BCB209C4DF3008C789E /* successAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = successAudio.mp3; sourceTree = "<group>"; };
 		5F2E1BCC209C4DF3008C789E /* 12121212.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12121212.png; sourceTree = "<group>"; };
-		5F2E1BCD209C4DF3008C789E /* PetScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PetScene.scn; sourceTree = "<group>"; };
 		5F2E1BCE209C4DF3008C789E /* petTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petTexture.jpg; sourceTree = "<group>"; };
 		5F2E1BCF209C4DF4008C789E /* MagicBallScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MagicBallScene.scn; sourceTree = "<group>"; };
+		5F69E46C209FE2640081347D /* PetScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PetScene.scn; sourceTree = "<group>"; };
 		A6049225209D50C0001F051C /* find@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "find@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,23 +88,23 @@
 				5F2E1BAD209C4612008C789E /* AppDelegate.swift */,
 				5F2E1BAF209C4612008C789E /* ViewController.swift */,
 				5F2E1BBF209C4694008C789E /* ARSCNBaseViewController.swift */,
+				5F2E1BC1209C4955008C789E /* PetNode.swift */,
+				5F2E1BC3209C4C6E008C789E /* MagicBallNode.swift */,
 				5F2E1BB1209C4612008C789E /* Main.storyboard */,
 				5F2E1BB4209C4613008C789E /* Assets.xcassets */,
 				5F2E1BB6209C4613008C789E /* LaunchScreen.storyboard */,
 				5F2E1BB9209C4613008C789E /* Info.plist */,
-				5F2E1BC1209C4955008C789E /* PetNode.swift */,
-				5F2E1BC3209C4C6E008C789E /* MagicBallNode.swift */,
 				5F2E1BCC209C4DF3008C789E /* 12121212.png */,
 				5F2E1BC7209C4DF2008C789E /* Effects.scnp */,
 				5F2E1BC5209C4DF2008C789E /* failureAudio.mp3 */,
 				5F2E1BC8209C4DF3008C789E /* magicBall.png */,
 				5F2E1BCF209C4DF4008C789E /* MagicBallScene.scn */,
 				5F2E1BC6209C4DF2008C789E /* MagicBallTexture.png */,
-				5F2E1BCD209C4DF3008C789E /* PetScene.scn */,
 				5F2E1BCE209C4DF3008C789E /* petTexture.jpg */,
 				5F2E1BC9209C4DF3008C789E /* shootAudio.mp3 */,
 				5F2E1BCA209C4DF3008C789E /* star.png */,
 				5F2E1BCB209C4DF3008C789E /* successAudio.mp3 */,
+				5F69E46C209FE2640081347D /* PetScene.scn */,
 			);
 			path = ARCatchGame;
 			sourceTree = "<group>";
@@ -174,8 +174,8 @@
 				5F2E1BD1209C4DF4008C789E /* MagicBallTexture.png in Resources */,
 				5F2E1BD5209C4DF4008C789E /* star.png in Resources */,
 				5F2E1BD0209C4DF4008C789E /* failureAudio.mp3 in Resources */,
-				5F2E1BD8209C4DF4008C789E /* PetScene.scn in Resources */,
 				5F2E1BD4209C4DF4008C789E /* shootAudio.mp3 in Resources */,
+				5F69E46D209FE2640081347D /* PetScene.scn in Resources */,
 				5F2E1BD2209C4DF4008C789E /* Effects.scnp in Resources */,
 				5F2E1BD7209C4DF4008C789E /* 12121212.png in Resources */,
 				5F2E1BB8209C4613008C789E /* LaunchScreen.storyboard in Resources */,

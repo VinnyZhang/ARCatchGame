@@ -17,12 +17,14 @@ class PetNode: SCNNode {
     class func initPetNode(nodeWith sceneName:String) -> SCNNode {
         // 从场景中提取节点
         let petScene = SCNScene(named: sceneName)
-        let petNode = petScene!.rootNode.clone()
+        let petNode = petScene!.rootNode.childNodes[1].clone()
         
         // 给节点增加物理特性
         let shape = SCNPhysicsShape(node: petNode, options: nil)
-        petNode.physicsBody = SCNPhysicsBody(type: .dynamic, shape: shape)
         
+//        let myNode = PetNode()
+//        myNode.geometry = petNode.geometry
+        petNode.physicsBody = SCNPhysicsBody(type: .dynamic, shape: shape)
         // 关闭重力
         petNode.physicsBody?.isAffectedByGravity = false
         
@@ -34,15 +36,7 @@ class PetNode: SCNNode {
         
         // 设置碰撞掩码
         petNode.physicsBody?.collisionBitMask = 3
-        
-//        let node = petNode as! PetNode
-//        if let node = petNode as? PetNode {
-//            return node
-//        }
-//
-//        return PetNode()
-        
-//        return PetNode(coder: petNode)
+
         return petNode
         
     }
